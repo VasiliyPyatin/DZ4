@@ -16,6 +16,7 @@ int b = Convert.ToInt32(ReadLine());
 double pow = GetPow (a, b);
 WriteLine (pow);
 
+//Решение 1
 // double GetPow (int ra, int rb)
 // {
 //     double result = Math.Pow(ra, rb);
@@ -23,6 +24,7 @@ WriteLine (pow);
 //     return result;
 // }
 
+//Решение 2
 int GetPow (int ra, int rb)
 {
     int result = 1;
